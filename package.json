@@ -1,0 +1,21 @@
+{
+  "name": "simple-sonarqube-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "sonar": "sonar-scanner"
+  },
+  "repository": "https://github.com/MatheusIshiyama/simple-sonarqube-example.git",
+  "author": "Matheus Ishiyama <matheus.ishiyama@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "jest-sonar-reporter": "^2.0.0",
+    "sonarqube-scanner": "^2.8.0",
+    "supertest": "^6.1.3"
+  }
+}
